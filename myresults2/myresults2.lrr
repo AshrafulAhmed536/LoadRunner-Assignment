@@ -1,0 +1,32 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=12.60.0.0
+Path=C:\Scenario2.lrs
+Subject=
+Result_file=c:\loadrunner\myresults2\myresults2.lrr
+Description=
+ResultName=myresults2
+Time_Zone=-19800
+Start_time=1579155505
+Daylight_Bias=0
+Stop_time=1579155579
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By a user
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 15 Vusers: 1 every 00:00:15 (HH:MM:SS); Run until completion
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+WebHttpHtml6=C:\Users\admin\Documents\VuGen\Scripts\WebHttpHtml6\WebHttpHtml6.usr
+[Scripts_types]
+WebHttpHtml6=Multi+QTWeb
