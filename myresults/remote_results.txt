@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\loadrunner\myresults\localhost_46.eve
