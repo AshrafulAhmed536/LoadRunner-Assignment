@@ -1,0 +1,2 @@
+[Hosts]
+localhost=c:\loadrunner\myresults3\localhost_123.eve
