@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Apache CPU Usage (Apache)
+DataPointLabel_1=offline_datapoint_31
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Apache CPU Usage (Apache)
+GraphGroupMenuTitle=Apache
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=Apache
+DataPointDescr_1=Percentage of time the CPU is utilized by the Apache server.
